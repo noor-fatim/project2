@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+
+}
+h1{
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	width: 250px;
+	
+
+
+}
+.container{
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	margin-top: 40px;
+	border: 2px solid black;
+	display: flex;
+	}
+.image1{
+	border-color: black;
+	background-image: url('image1.jpg');
+}
+.image2{
+	background-image: url('image2.jpg');
+}
+.image3{
+	background-image: url('image3.jpg');
+}
+.image4{
+	background-image: url('image4.jpg');
+}
+.image5{
+	background-image: url('image5.jpg');
+}
+.image{
+	background-size: cover;
+	height: 50vh;
+	overflow: hidden;
+	flex: 0.2;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:8px;
+    transition: all 0.7s ease-out;
+    cursor: pointer;
+   
+
+}
+h1:hover{
+	color: salmon;
+
+	border: 1px solid black;
+}
+.image.active{
+	flex: 1;
+}
